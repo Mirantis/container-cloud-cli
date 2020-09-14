@@ -15,7 +15,7 @@ Specify an alternative GitHub target repository name. Defaults to
 'container-cloud-cli'
 
 .PARAMETER Version
-Specify a target version to install. Defaults to 'v0.0.1-alpha2'
+Specify a target version to install. Defaults to 'v0.1.0-beta1'
 
 .PARAMETER OutputDir
 Specify the directory containing docker CLI plugins on your machine.
@@ -27,7 +27,7 @@ param(
     [string]$BearerToken = "",
     [string]$Organization = "Mirantis",
     [string]$Repository = "container-cloud-cli",
-    [string]$Version = "v0.0.1-alpha2", # Update to "latest" on first release
+    [string]$Version = "v0.1.0-beta1", # Update to "latest" on first release
     [string]$OutputDir = "C:\Program Files\Docker\cli-plugins"
 )
 
